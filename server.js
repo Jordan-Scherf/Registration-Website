@@ -135,7 +135,7 @@ const port = 3000;
 server.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
-
+// MySQL connection: Must provide Information below to work
 const connection = mysql.createConnection({
     host: 'YOUR HOST IP',
     port:YOURPORTNUMBER,
