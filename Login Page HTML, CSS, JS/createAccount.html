@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Jordans Workspace</title>
+      <link href="createAccount.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <script scr='script.js'></script>
+<h1>Create An Account</h1>
+<body>
+
+    <div id="box" class="center"></div>
+    <form class="insideBox">
+        <label for="Username" id="p1"> Create a Username:</label>
+        
+    
+        <input type="text" id="Username" name="Username" class = "input-field">
+
+        <div class="input-pair">
+            <label for="email" id="p1"> Email:</label><br>
+        
+            <input type="text" id="email" name="email" class = "input-field">
+            
+        
+            </div>
+
+        <div class="input-pair">
+        <label for="Password" id="p1"> Create a Password:</label><br>
+    
+        <input type="text" id="Password" name="Password" class = "input-field">
+        
+        <p id = "p1">Passwords must contain <br>
+                    1 Uppercase Character, <br>
+                1 Special Character,
+            and <br>
+            12 Characters Total </p>
+        </div>
+
+        <div class="input-pair">
+            <label for="passwordConfirm" id="p1"> Confirm Password:</label><br>
+        
+            <input type="text" id="passwordConfirm" name="passwordConfirm" class = "input-field">
+    
+            </div>
+            
+            <button type = "button" id = "CreateButton" onclick= 'CreateAccount(document.getElementById("Username"),document.getElementById("email"), document.getElementById("Password"), document.getElementById("passwordConfirm"))'>Create an Account</button>
+    </form>
+    
+</body>
+</html>

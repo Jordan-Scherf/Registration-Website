@@ -1,0 +1,18 @@
+h1{
+    font-family: "Cinzel";
+    border-top-style: dotted;
+    border-bottom-style:dotted;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  html{
+    height: 100%;
+  width: 100%;
+  background-image: url("DarkSouls/Darksoulsbonfire.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  }

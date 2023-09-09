@@ -1,0 +1,62 @@
+h1{
+    font-family: "Cinzel";
+    border-top-style: dotted;
+    border-bottom-style:dotted;
+    padding: 5px;
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .center{
+    margin-top: 20%;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.insideBox{
+  margin-top: 20%;
+    position: fixed;
+    top: 38%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    overflow: auto;
+}
+
+  html{
+    height: 100%;
+  width: 100%;
+  background-image: url("DarkSouls/Darksoulsfight.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  }
+  
+  #box{
+    z-index: -1;
+    height: 550px;
+    width:350px;
+    border-style: ridge;
+    border-color: gray;
+    border-radius: 25px;
+    background-color: black;
+    opacity: .7;
+  }
+  #p1{
+    color:white;
+    font-family: Cinzel;
+  }
+  .input-field {
+    display: block;
+    margin: 5px auto; /* Adjust the margin as needed */
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .input-pair {
+    margin: 30px auto; /* Adjust the margin as needed */
+  }
